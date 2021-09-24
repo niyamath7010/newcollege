@@ -1,0 +1,103 @@
+
+*{
+    margin:0;padding: 0;box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns:repeat(3,1fr)150px ;
+    grid-gap: 20px;
+    
+}
+
+.div1{
+    /* background-color: rgb(126, 126, 204); */
+    grid-column: 1/-1;
+    
+    
+}
+
+.div2{
+    /* background-color: rgb(136, 173, 60); */
+    
+}
+.div3{
+    /* background-color: rgb(20, 167, 69); */
+    
+}
+.div4{
+    /* background-color: rgb(163, 27, 27); */
+    
+}
+.div5{
+    /* background-color: rgb(74, 77, 70); */
+    grid-row: 2/4;
+    grid-column: 4/5;
+    
+}
+.div6{
+    /* background-color: rgb(179, 113, 53); */
+    
+    grid-column: 1/4;
+}
+.div7{
+    background-color: rgb(212, 204, 204);
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/-1;
+    justify-content: center;
+}
+
+.new_img{
+    width: 100%;
+    height: 200px;
+}
+.new_logo{
+    height: 100px;
+    padding-left: 10px;
+}
+
+h4,p{
+    text-align: center;
+    color: cornflowerblue;
+    padding-top: 10px;
+    font-family: cursive;
+}
+.new_img2{
+    width: 100%;
+    height: 200px;
+}
+
+video{
+    width: 150px;
+    height: 320px;
+}
+
+.hills{
+    width: 100%;
+    height: 200px;
+}
+
+.kalam{
+    width: 100%;
+    height: 100px;
+}
+.copy{
+    color: black;
+    font-weight: 400px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.bsc{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.navbar-brand{
+    color: rgb(182, 117, 117);
+}
